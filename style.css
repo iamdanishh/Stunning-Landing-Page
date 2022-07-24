@@ -1,0 +1,187 @@
+body{
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+main{
+    margin-bottom: 100px;
+}
+.navBar{
+    display: flex;
+    overflow: hidden;
+    justify-content:space-between;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.navbar-list{
+    margin: auto;
+}
+.navbar-list a{
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color:gray;
+    text-decoration: none;
+}
+.navbar-list a span{
+   padding-bottom: 5px;
+    cursor: pointer;
+}
+.navbar-list a:hover span{
+
+    border-bottom: 5px solid #8071D0;
+}
+.navbar-list a:active span{
+
+    border-bottom: 5px solid #8071D0;
+}
+
+.logo img{
+    height:50px;
+    width: auto ;
+    cursor: pointer;
+}
+.youraccount{
+    background-color: #FFD8DB;
+    color: #A389CC;
+    padding: 16px 24px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+.logo{
+    margin: auto;
+    margin-left: 5%;
+}
+.nav-button{
+    margin: auto;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+.first-half{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.second-half{
+    width: 60%;
+}
+.landingsection{
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+}
+.title{
+    font-size: 80px;
+    font-weight: 900;
+}
+.sub-title{
+    margin-top: 50px;
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+}
+.titlebox{
+    padding-left: 30%;
+    padding-top: 10%;
+    float: right;
+    margin: auto;
+}
+.newaccount{
+    background-color: #5243C0;
+    color: #ffffff;
+    font-weight: 200;
+    padding: 20px 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.newaccountcontainer{
+    padding-top:20px;
+    margin-top: 45px;
+    padding-bottom:20px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: start;
+}
+.uparrow{
+    border: 1px solid lightgrey; 
+    border-radius: 20px;
+    margin-left: 10px;
+    background-image: url('arrow-up.png');
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    width: 60px;
+   
+}
+.downarrow{
+    border: 1px solid gray; 
+    border-radius: 20px;
+    margin-left: 10px;
+    background-image: url('arrow-down.png');
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    width: 60px;
+}
+.checkbox-container{
+    margin-left: 160px;
+}
+.checkbox-itembox{
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;    
+
+}
+.firstspan{
+    padding: 5px;
+    width: 31px;
+    height: 30px;
+    background-repeat: no-repeat
+
+}
+ .img{
+    background-image: url('tick-gray.png');
+    height: 100%;
+    width: auto;
+}
+.secondspan{
+    padding-top: 12px;
+    width: 150px;
+    padding-left: 12px;
+}
+.thirdspan img{
+    margin: 7px;
+}
+.thirdspan{
+    width: 50px;
+    
+}
+.fourthspan{
+    padding: 12px;
+    width: 60px;
+    color: gray;
+}
+.fifthspan{
+    margin:auto 10px auto 10px;
+    width: 25px;
+    height: 5px;
+    border-radius: 10px;
+}
+.checkbox-itembox:hover {
+    box-shadow: 0px 0px 20px lightgrey;
+    background-color: white;
+}
+.checkbox-itembox:hover .img{
+    background-image: url('tick-blue.png');
+    height: 100%;
+    width: auto;
+}
